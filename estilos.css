@@ -1,0 +1,16 @@
+        header {
+            background-image: url(../imagenes/pared_portfolio.jpg);
+            background-position: cover;
+        }
+        
+        .text-primary {
+            color: #161684 !important;
+        }
+        
+        .bg-primary {
+            background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+        }
+        
+        body {
+            background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+        }
