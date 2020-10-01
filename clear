@@ -1,0 +1,23 @@
+[33mcommit 9de75881448340c27a4d0593a8b2dcdafaa852b6[m[33m ([m[1;36mHEAD[m[33m)[m
+Author: Maxi Miño <libertadores323@gmail.com>
+Date:   Tue Sep 29 23:49:21 2020 -0300
+
+    subiendo proyecto a github para luego subirlo a un hosting
+
+[33mcommit 0bbadaf970cf80341447c18c9219c235313373de[m
+Author: Maxi Miño <libertadores323@gmail.com>
+Date:   Mon Sep 21 20:05:27 2020 -0300
+
+    Termine todas las secciones de la pagina, solo falta darle los ultimos estilos, ponerle los links a las redes y terminar la seccion de habilidades
+
+[33mcommit 387302d80cf819a2aad6b472f79f14a90f9473a9[m
+Author: Maxi Miño <libertadores323@gmail.com>
+Date:   Thu Sep 17 18:52:23 2020 -0300
+
+    Termine de hacer la tarjeta de javascript, paso a realizar el carrusel
+
+[33mcommit 0f3c832fb5f1002a1dca3a1b468ba268eea54c8a[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Maxi Miño <libertadores323@gmail.com>
+Date:   Wed Sep 16 17:08:45 2020 -0300
+
+    Empece la seccion de habilidades pero guardo por las dudas porque voy a probar un jquery
