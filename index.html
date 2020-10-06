@@ -58,7 +58,7 @@
         </div>
     </nav>
     <header class="shadow">
-        <div class="container d-flex">
+        <div class="container-fluid d-flex">
             <div class="row mt-5">
                 <div class="col-sm-7 col-5 d-flex align-self-center flex-column blockquote pt-3">
                     <h1 class="font-weight-bold text-center text-dark scroll-top">¡Hola! Soy Maxi
@@ -503,31 +503,31 @@
                                 </div>
                             </div>
 
-                        </div>
 
 
 
-                        <div class="col-lg-6 scroll-right">
-                            <form class="my-5" method="_POST">
-                                <div class="form-group">
-                                    <label for="nombre">Nombre y apellido</label>
-                                    <input type="text" name="nombre" class="form-control" id="nombre" placeholder="Nombre y apellido..">
-                                </div>
-                                <div class="form-group">
-                                    <label for="nombre">Motivo</label>
-                                    <input type="text" name="motivo" class="form-control" id="motivo" placeholder="Motivo..">
-                                </div>
-                                <div class="form-group">
-                                    <label for="Email">Correo electronico</label>
-                                    <input type="email" name="email" class="form-control" id="Email" placeholder="Email..">
-                                </div>
-                                <div class="form-group">
-                                    <label for="Comentario">Comentarios</label>
-                                    <textarea name="comentario" id="Comentario" class="form-control" cols="30" rows="10" placeholder="Ingrese un comentario.."></textarea>
-                                </div>
-                                <button type="button" class="btn btn-block btn-primary">Enviar</button>
-                            </form>
 
+                            <div class="col-lg-6 scroll-right">
+                                <form action="formulario.php" class="my-5" method="_POST">
+                                    <div class="form-group">
+                                        <label for="nombre">Nombre y apellido</label>
+                                        <input type="text" name="nombre" class="form-control" id="nombre" placeholder="Nombre y apellido..">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="motivo">Motivo</label>
+                                        <input type="text" name="motivo" class="form-control" id="motivo" placeholder="Motivo..">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">Correo electronico</label>
+                                        <input type="email" name="email" class="form-control" id="email" placeholder="Email..">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="comentario">Comentarios</label>
+                                        <textarea name="comentario" id="comentario" class="form-control" cols="30" rows="10" placeholder="Ingrese un comentario.."></textarea>
+                                    </div>
+                                    <button type="button" class="btn btn-block btn-primary">Enviar</button>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
