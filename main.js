@@ -18,34 +18,29 @@ $(document).ready(function() {
 /* ANIMACIONES */
 window.sr = ScrollReveal();
 sr.reveal('.navbar', {
-    duration: 4000,
+    duration: 6000,
     origin: 'bottom',
     distance: '-100px'
 });
 sr.reveal('.scroll-top', {
-    duration: 2000,
-    origin: 'bottom',
-    distance: '-500px'
+    duration: 4000,
+    origin: 'bottom'
 });
 sr.reveal('.scroll-left', {
-    duration: 2000,
-    origin: 'left',
-    distance: '500px'
+    origin: 'left'
 });
 sr.reveal('.scroll-right', {
-    duration: 2000,
-    origin: 'right',
-    distance: '500px'
+    duration: 4000,
+    origin: 'right'
 
 
 });
 sr.reveal('.scroll-bottom', {
-    duration: 2000,
-    origin: 'bottom',
-    distance: '500px'
+    duration: 4000,
+    origin: 'bottom'
 });
 sr.reveal('.logo', {
-    duration: 4000,
+    duration: 6000,
     rotate: {
         x: 1,
         y: 100
