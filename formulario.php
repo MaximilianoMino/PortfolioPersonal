@@ -1,15 +1,15 @@
 <?php
-$destinatario = 'maximiliano.mino323@gmail.com';
 
 $nombre = $_POST['nombre'];
-$motivo = $_POST['motivo'];
 $email = $_POST['email'];
 $comentario = $_POST['comentario'];
 
+$destinatario = "maximiliano.mino323@gmail.com";
+$motivo = $_POST['motivo'];
+
 $header = 'Enviado desde el portfolio personal';
-$mensajeCompleto = $comentario . "\nAtentamente: ". $nombre;
+$mensajeCompleto = "$comentario . '\nAtentamente: '. $nombre";
 
 mail($destinatario, $asunto, $mensajeCompleto, $header);
-echo "<script> alert('correo enviado')</script>";
-echo "<script> setTimeout(\"location.href='index.html'\",1000)</script>"
+header('Location:index.html');
 ?>
