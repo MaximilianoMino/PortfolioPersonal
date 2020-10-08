@@ -26,16 +26,16 @@
                                 background-position: cover;
                             }
                             
-                            .img-responsive {
-                                min-width: 190px;
-                            }
-                            
                             @media(max-width:500px) {
                                 header {
                                     background-image: url(imagenes/Maxi/pared_portfolio.jpg);
                                 }
                                 html {
                                     font-size: 13px;
+                                }
+                                .img-responsive {
+                                    min-width: 190px;
+                                    max-height: 300px;
                                 }
                             }
                             
