@@ -27,7 +27,7 @@
                             }
                             
                             .img-responsive {
-                                min-width: 140px;
+                                min-width: 190px;
                             }
                             
                             @media(max-width:500px) {
