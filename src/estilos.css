@@ -1,80 +1,87 @@
-                            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
-                            @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&family=Poppins:wght@600&display=swap');
-                            /*BASICO */
-                            
-                            * {
-                                margin: 0;
-                                padding: 0;
-                            }
-                            
-                            html {
-                                font-size: 14px;
-                            }
-                            
-                            nav {
-                                opacity: 0.9;
-                            }
-                            
-                            body {
-                                font-family: 'Mulish', sans-serif;
-                                background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
-                            }
-                            
-                            header {
-                                font-family: 'Gilda Display', serif;
-                                background-image: url(Imagenes/Maxi/pared_portfolio5000px.jpg);
-                                background-position: cover;
-                            }
-                            
-                            @media(max-width:500px) {
-                                header {
-                                    background-image: url(imagenes/Maxi/pared_portfolio.jpg);
-                                }
-                                html {
-                                    font-size: 13px;
-                                }
-                                .img-responsive {
-                                    min-width: 190px;
-                                    max-height: 300px;
-                                }
-                            }
-                            
-                            h1,
-                            h2 {
-                                font-family: 'Poppins', sans-serif;
-                                font-size: 3rem;
-                            }
-                            
-                            .text-primary {
-                                color: #161684 !important;
-                            }
-                            
-                            .bg-primary,
-                            .btn-primary {
-                                background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
-                            }
-                            
-                            textarea {
-                                resize: none;
-                            }
-                            
-                            div a i {
-                                font-size: 2rem;
-                            }
-                            
-                            footer {
-                                height: 5rem;
-                            }
-                            /*PSEUDOCLASES */
-                            
-                            button:hover,
-                            .icono-redes:hover,
-                            .nav-link:hover {
-                                scale: 1.02;
-                            }
-                            
-                            button:active,
-                            .icono-redes:active,
-                            .nav-link:active {
-                                scale: 0.9;
-                            }
+                           @import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Work+Sans&display=swap');
+                           /*BASICO */
+                           
+                           * {
+                               margin: 0;
+                               padding: 0;
+                           }
+                           
+                           html {
+                               font-size: 14px;
+                           }
+                           
+                           nav {
+                               opacity: 0.9;
+                           }
+                           
+                           body {
+                               font-family: 'Work sans', sans-serif;
+                               background-color: #E4E4E1;
+                               background-image: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+                               background-blend-mode: normal, multiply;
+                           }
+                           
+                           header {
+                               font-family: 'Gilda Display', serif;
+                               background: url(Imagenes/Maxi/web.jpg) no-repeat;
+                               background-size: cover;
+                           }
+                           
+                           @media(max-width:500px) {
+                               header {
+                                   background: url(imagenes/Maxi/web.jpg) no-repeat bottom;
+                                   background-size: cover;
+                               }
+                               html {
+                                   font-size: 13px;
+                               }
+                               .img-responsive {
+                                   min-width: 190px;
+                                   max-height: 300px;
+                               }
+                           }
+                           
+                           h1,
+                           h2 {
+                               font-family: 'Gilda Display', sans-serif;
+                               font-size: 3rem;
+                               font-weight: bold;
+                           }
+                           
+                           .text-primary {
+                               color: #485563 !important;
+                           }
+                           
+                           .bg-primary,
+                           .btn-primary {
+                               background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+                           }
+                           
+                           .bg-secondary {
+                               background-image: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+                           }
+                           
+                           textarea {
+                               resize: none;
+                           }
+                           
+                           div a i {
+                               font-size: 2rem;
+                           }
+                           
+                           footer {
+                               height: 5rem;
+                           }
+                           /*PSEUDOCLASES */
+                           
+                           button:hover,
+                           .icono-redes:hover,
+                           .nav-link:hover {
+                               scale: 1.02;
+                           }
+                           
+                           button:active,
+                           .icono-redes:active,
+                           .nav-link:active {
+                               scale: 0.9;
+                           }
