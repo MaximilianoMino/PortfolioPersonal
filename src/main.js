@@ -1,6 +1,5 @@
 'use strict'
 
-
 $(document).ready(function() {
     /*HREF DESLIZ */
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -12,7 +11,6 @@ $(document).ready(function() {
             });
         });
     });
-
 
 });
 /* ANIMACIONES */

@@ -41,7 +41,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
                     <a class="nav-link" href="#menu">Menú</a>
@@ -513,24 +513,25 @@
 
 
                             <div class="col-lg-6 scroll-right bg-white">
-                                <form name="contacto" netlify class="my-5" action="src\Agradecimiento\agradecimiento.html">
+                                <form name="contacto" class="my-5" netlify action="/src/Agradecimiento/agradecimiento.html" id="form">
                                     <div class="form-group">
                                         <label for="nombre">Nombre y apellido</label>
-                                        <input type="text" name="nombre" class="form-control" id="nombre" placeholder="Nombre y apellido.." required>
+                                        <input type="text" name="nombre" class="form-control" id="nombre" placeholder="Nombre y apellido..">
                                     </div>
                                     <div class="form-group">
                                         <label for="motivo">Motivo</label>
-                                        <input type="text" name="motivo" class="form-control" id="motivo" placeholder="Motivo.." required>
+                                        <input type="text" name="motivo" class="form-control" id="motivo" placeholder="Motivo..">
                                     </div>
                                     <div class="form-group">
                                         <label for="email">Correo electronico</label>
-                                        <input type="email" name="email" class="form-control" id="email" placeholder="Email.." required>
+                                        <input type="email" name="email" class="form-control" id="email" placeholder="Email..">
                                     </div>
                                     <div class="form-group">
                                         <label for="comentario">Comentarios</label>
                                         <textarea name="comentario" id="comentario" class="form-control" cols="30" rows="10" placeholder="Ingrese un comentario.."></textarea>
                                     </div>
-                                    <input type="submit" class="btn btn-block btn-primary" value="Enviar">
+                                    <div id="spinner" class="spinner-border my-2 d-none "></div>
+                                    <input type="submit" class="btn btn-block btn-primary" value="Enviar" id="enviar">
                                 </form>
                             </div>
                         </div>
@@ -568,6 +569,7 @@
 
     <!--MAIN JS -->
     <script src="./src/main.js "></script>
+    <script src="./src/validacion.js"></script>
 
 </body>
 
