@@ -25,14 +25,13 @@ sr.reveal('.scroll-top', {
     origin: 'bottom'
 });
 sr.reveal('.scroll-left', {
-    duration: 4000,
-    origin: 'left',
-    distance: "-500px"
+    origin: 'left'
 });
-sr.reveal(".scroll-right", {
+sr.reveal('.scroll-right', {
     duration: 4000,
-    origin: "right",
-    distance: "-500px",
+    origin: 'right'
+
+
 });
 sr.reveal('.scroll-bottom', {
     duration: 4000,
