@@ -10,8 +10,8 @@
                                font-size: 14px;
                            }
                            
-                           nav {
-                               opacity: 0.9;
+                           nav div ul li .nav-link {
+                               flood-opacity: 0%;
                            }
                            
                            body {
